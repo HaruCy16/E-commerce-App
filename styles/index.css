@@ -168,21 +168,31 @@ body {
 
 /* Email Subscription Input */
 .subscribe-input {
-  width: 80%;
+  width: 60%;
   padding: 10px;
   border: none;
   border-radius: 5px;
   margin-top: 10px;
+  background: black;
+  color: white;
+}
+
+.subscribe-input:focus {
+  border: none !important;
 }
 
 /* Button inside the input */
 .subscribe-button {
   padding: 10px;
   border: none;
-  background: #fff;
-  color: #000;
+  background: #000000;
+  color: white;
   cursor: pointer;
-  border-radius: 5px;
+  border: none;
+}
+
+.subscribe-button::placeholder {
+  color: white !important;
 }
 
 /* Social Media Icons */
