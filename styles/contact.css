@@ -87,6 +87,14 @@ body {
   }
 }
 
+/*CONTACT FORM STYLES MAIN*/
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
 /*FOOTER STYLES*/
 .footer {
   background-color: #000; /* Black background */
